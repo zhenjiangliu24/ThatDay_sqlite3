@@ -9,12 +9,41 @@
 /* Begin PBXBuildFile section */
 		CA8C10DF1CD68F9800BA62AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C10DE1CD68F9800BA62AF /* main.m */; };
 		CA8C10E21CD68F9800BA62AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C10E11CD68F9800BA62AF /* AppDelegate.m */; };
-		CA8C10E51CD68F9800BA62AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C10E41CD68F9800BA62AF /* ViewController.m */; };
 		CA8C10E81CD68F9800BA62AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8C10E61CD68F9800BA62AF /* Main.storyboard */; };
 		CA8C10EA1CD68F9800BA62AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8C10E91CD68F9800BA62AF /* Assets.xcassets */; };
 		CA8C10ED1CD68F9800BA62AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8C10EB1CD68F9800BA62AF /* LaunchScreen.storyboard */; };
 		CA8C10F81CD68F9800BA62AF /* ThatDay_sqlite3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C10F71CD68F9800BA62AF /* ThatDay_sqlite3Tests.m */; };
 		CA8C11031CD68F9800BA62AF /* ThatDay_sqlite3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C11021CD68F9800BA62AF /* ThatDay_sqlite3UITests.m */; };
+		CA8C11131CD6903700BA62AF /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C11121CD6903700BA62AF /* Note.m */; settings = {ASSET_TAGS = (); }; };
+		CA8C11171CD691B700BA62AF /* NoteList.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C11161CD691B700BA62AF /* NoteList.m */; settings = {ASSET_TAGS = (); }; };
+		CA8C11191CD6939F00BA62AF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8C11181CD6939F00BA62AF /* libsqlite3.tbd */; };
+		CA8C11221CD6C01800BA62AF /* NoteBL.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C11211CD6C01800BA62AF /* NoteBL.m */; settings = {ASSET_TAGS = (); }; };
+		CA8C11251CD6C09000BA62AF /* NoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C11241CD6C09000BA62AF /* NoteCell.m */; settings = {ASSET_TAGS = (); }; };
+		CA8C112B1CD6C0B000BA62AF /* ThatDayUniversalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C11291CD6C0B000BA62AF /* ThatDayUniversalCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CA8C112D1CD6EA6500BA62AF /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA8C112C1CD6EA6500BA62AF /* Settings.bundle */; settings = {ASSET_TAGS = (); }; };
+		CA8C112F1CD7AA1400BA62AF /* notification.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA8C112E1CD7AA1400BA62AF /* notification.plist */; settings = {ASSET_TAGS = (); }; };
+		CAE430891CDB725600FBB43B /* myScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE430881CDB725600FBB43B /* myScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		CAE430941CDCD67C00FBB43B /* ThatDay_sqlite3Tests2.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE430931CDCD67C00FBB43B /* ThatDay_sqlite3Tests2.m */; };
+		CAE4309B1CDCD6A800FBB43B /* AddNoteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB93411CDA86DE00EC241B /* AddNoteTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CAE4309C1CDCD6AA00FBB43B /* AddNoteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB93411CDA86DE00EC241B /* AddNoteTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CAEF241F1CDA9FAB00DA2B6B /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEF241E1CDA9FAB00DA2B6B /* Contacts.framework */; };
+		CAEF24481CDABCC200DA2B6B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEF24471CDABCC200DA2B6B /* CFNetwork.framework */; };
+		CAEF244A1CDABCC800DA2B6B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEF24491CDABCC800DA2B6B /* Security.framework */; };
+		CAEF244C1CDABCF700DA2B6B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEF244B1CDABCF700DA2B6B /* SystemConfiguration.framework */; };
+		CAEF2DB71CDAC64200DA2B6B /* NSAlert+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEF2DA21CDAC64200DA2B6B /* NSAlert+MKNetworkKitAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		CAEF2DB81CDAC64200DA2B6B /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEF2DA41CDAC64200DA2B6B /* NSData+MKBase64.m */; settings = {ASSET_TAGS = (); }; };
+		CAEF2DB91CDAC64200DA2B6B /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEF2DA61CDAC64200DA2B6B /* NSDate+RFC1123.m */; settings = {ASSET_TAGS = (); }; };
+		CAEF2DBA1CDAC64200DA2B6B /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEF2DA81CDAC64200DA2B6B /* NSDictionary+RequestEncoding.m */; settings = {ASSET_TAGS = (); }; };
+		CAEF2DBB1CDAC64200DA2B6B /* NSString+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEF2DAA1CDAC64200DA2B6B /* NSString+MKNetworkKitAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		CAEF2DBC1CDAC64200DA2B6B /* UIAlertView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEF2DAC1CDAC64200DA2B6B /* UIAlertView+MKNetworkKitAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		CAEF2DBD1CDAC64200DA2B6B /* UIImageView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEF2DAE1CDAC64200DA2B6B /* UIImageView+MKNetworkKitAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		CAEF2DBE1CDAC64200DA2B6B /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEF2DB01CDAC64200DA2B6B /* MKNetworkEngine.m */; settings = {ASSET_TAGS = (); }; };
+		CAEF2DBF1CDAC64200DA2B6B /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEF2DB31CDAC64200DA2B6B /* MKNetworkOperation.m */; settings = {ASSET_TAGS = (); }; };
+		CAEF2DC01CDAC64200DA2B6B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEF2DB61CDAC64200DA2B6B /* Reachability.m */; settings = {ASSET_TAGS = (); }; };
+		CAEF2DC31CDAF15B00DA2B6B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEF2DC21CDAF15B00DA2B6B /* Constants.m */; settings = {ASSET_TAGS = (); }; };
+		CAFB933C1CDA791100EC241B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB933B1CDA791100EC241B /* CoreLocation.framework */; };
+		CAFB933F1CDA7D4B00EC241B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB933E1CDA7D4B00EC241B /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CAFB93421CDA86DE00EC241B /* AddNoteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB93411CDA86DE00EC241B /* AddNoteTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +61,13 @@
 			remoteGlobalIDString = CA8C10D91CD68F9800BA62AF;
 			remoteInfo = ThatDay_sqlite3;
 		};
+		CAE430961CDCD67C00FBB43B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA8C10D21CD68F9800BA62AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA8C10D91CD68F9800BA62AF;
+			remoteInfo = ThatDay_sqlite3;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +75,6 @@
 		CA8C10DE1CD68F9800BA62AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA8C10E01CD68F9800BA62AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA8C10E11CD68F9800BA62AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA8C10E31CD68F9800BA62AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CA8C10E41CD68F9800BA62AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CA8C10E71CD68F9800BA62AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA8C10E91CD68F9800BA62AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA8C10EC1CD68F9800BA62AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +85,57 @@
 		CA8C10FE1CD68F9800BA62AF /* ThatDay_sqlite3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThatDay_sqlite3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8C11021CD68F9800BA62AF /* ThatDay_sqlite3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThatDay_sqlite3UITests.m; sourceTree = "<group>"; };
 		CA8C11041CD68F9800BA62AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8C11101CD68FCD00BA62AF /* ThatDay_sqlite3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThatDay_sqlite3-Prefix.pch"; sourceTree = "<group>"; };
+		CA8C11111CD6903700BA62AF /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		CA8C11121CD6903700BA62AF /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		CA8C11151CD691B700BA62AF /* NoteList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteList.h; sourceTree = "<group>"; };
+		CA8C11161CD691B700BA62AF /* NoteList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteList.m; sourceTree = "<group>"; };
+		CA8C11181CD6939F00BA62AF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CA8C11201CD6C01800BA62AF /* NoteBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteBL.h; sourceTree = "<group>"; };
+		CA8C11211CD6C01800BA62AF /* NoteBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteBL.m; sourceTree = "<group>"; };
+		CA8C11231CD6C09000BA62AF /* NoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteCell.h; sourceTree = "<group>"; };
+		CA8C11241CD6C09000BA62AF /* NoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteCell.m; sourceTree = "<group>"; };
+		CA8C11281CD6C0B000BA62AF /* ThatDayUniversalCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThatDayUniversalCollectionViewController.h; sourceTree = "<group>"; };
+		CA8C11291CD6C0B000BA62AF /* ThatDayUniversalCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThatDayUniversalCollectionViewController.m; sourceTree = "<group>"; };
+		CA8C112C1CD6EA6500BA62AF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		CA8C112E1CD7AA1400BA62AF /* notification.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = notification.plist; sourceTree = "<group>"; };
+		CAE430871CDB725600FBB43B /* myScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myScrollView.h; sourceTree = "<group>"; };
+		CAE430881CDB725600FBB43B /* myScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myScrollView.m; sourceTree = "<group>"; };
+		CAE430911CDCD67C00FBB43B /* ThatDay_sqlite3Tests2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThatDay_sqlite3Tests2.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE430931CDCD67C00FBB43B /* ThatDay_sqlite3Tests2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThatDay_sqlite3Tests2.m; sourceTree = "<group>"; };
+		CAE430951CDCD67C00FBB43B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEF241E1CDA9FAB00DA2B6B /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		CAEF24471CDABCC200DA2B6B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CAEF24491CDABCC800DA2B6B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CAEF244B1CDABCF700DA2B6B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CAEF2DA11CDAC64200DA2B6B /* NSAlert+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		CAEF2DA21CDAC64200DA2B6B /* NSAlert+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		CAEF2DA31CDAC64200DA2B6B /* NSData+MKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
+		CAEF2DA41CDAC64200DA2B6B /* NSData+MKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
+		CAEF2DA51CDAC64200DA2B6B /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
+		CAEF2DA61CDAC64200DA2B6B /* NSDate+RFC1123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RFC1123.m"; sourceTree = "<group>"; };
+		CAEF2DA71CDAC64200DA2B6B /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
+		CAEF2DA81CDAC64200DA2B6B /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
+		CAEF2DA91CDAC64200DA2B6B /* NSString+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		CAEF2DAA1CDAC64200DA2B6B /* NSString+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		CAEF2DAB1CDAC64200DA2B6B /* UIAlertView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		CAEF2DAC1CDAC64200DA2B6B /* UIAlertView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		CAEF2DAD1CDAC64200DA2B6B /* UIImageView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		CAEF2DAE1CDAC64200DA2B6B /* UIImageView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		CAEF2DAF1CDAC64200DA2B6B /* MKNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkEngine.h; sourceTree = "<group>"; };
+		CAEF2DB01CDAC64200DA2B6B /* MKNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkEngine.m; sourceTree = "<group>"; };
+		CAEF2DB11CDAC64200DA2B6B /* MKNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkKit.h; sourceTree = "<group>"; };
+		CAEF2DB21CDAC64200DA2B6B /* MKNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkOperation.h; sourceTree = "<group>"; };
+		CAEF2DB31CDAC64200DA2B6B /* MKNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkOperation.m; sourceTree = "<group>"; };
+		CAEF2DB51CDAC64200DA2B6B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CAEF2DB61CDAC64200DA2B6B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CAEF2DC11CDAF15B00DA2B6B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CAEF2DC21CDAF15B00DA2B6B /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		CAFB933B1CDA791100EC241B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CAFB933D1CDA7D4B00EC241B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CAFB933E1CDA7D4B00EC241B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CAFB93401CDA86DE00EC241B /* AddNoteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNoteTableViewController.h; sourceTree = "<group>"; };
+		CAFB93411CDA86DE00EC241B /* AddNoteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNoteTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +143,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAEF244C1CDABCF700DA2B6B /* SystemConfiguration.framework in Frameworks */,
+				CAEF244A1CDABCC800DA2B6B /* Security.framework in Frameworks */,
+				CAEF24481CDABCC200DA2B6B /* CFNetwork.framework in Frameworks */,
+				CAEF241F1CDA9FAB00DA2B6B /* Contacts.framework in Frameworks */,
+				CAFB933C1CDA791100EC241B /* CoreLocation.framework in Frameworks */,
+				CA8C11191CD6939F00BA62AF /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,15 +166,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CAE4308E1CDCD67C00FBB43B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		CA8C10D11CD68F9800BA62AF = {
 			isa = PBXGroup;
 			children = (
+				CAEF244B1CDABCF700DA2B6B /* SystemConfiguration.framework */,
+				CAEF24491CDABCC800DA2B6B /* Security.framework */,
+				CAEF24471CDABCC200DA2B6B /* CFNetwork.framework */,
+				CAEF241E1CDA9FAB00DA2B6B /* Contacts.framework */,
+				CAFB933B1CDA791100EC241B /* CoreLocation.framework */,
+				CA8C11181CD6939F00BA62AF /* libsqlite3.tbd */,
 				CA8C10DC1CD68F9800BA62AF /* ThatDay_sqlite3 */,
 				CA8C10F61CD68F9800BA62AF /* ThatDay_sqlite3Tests */,
 				CA8C11011CD68F9800BA62AF /* ThatDay_sqlite3UITests */,
+				CAE430921CDCD67C00FBB43B /* ThatDay_sqlite3Tests2 */,
 				CA8C10DB1CD68F9800BA62AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +199,7 @@
 				CA8C10DA1CD68F9800BA62AF /* ThatDay_sqlite3.app */,
 				CA8C10F31CD68F9800BA62AF /* ThatDay_sqlite3Tests.xctest */,
 				CA8C10FE1CD68F9800BA62AF /* ThatDay_sqlite3UITests.xctest */,
+				CAE430911CDCD67C00FBB43B /* ThatDay_sqlite3Tests2.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,15 +207,24 @@
 		CA8C10DC1CD68F9800BA62AF /* ThatDay_sqlite3 */ = {
 			isa = PBXGroup;
 			children = (
+				CAEF2DC11CDAF15B00DA2B6B /* Constants.h */,
+				CAEF2DC21CDAF15B00DA2B6B /* Constants.m */,
+				CAEF2D9F1CDAC64200DA2B6B /* MKNetworkKit */,
+				CAE4308A1CDB889A00FBB43B /* Controllers */,
+				CA8C11231CD6C09000BA62AF /* NoteCell.h */,
+				CA8C11241CD6C09000BA62AF /* NoteCell.m */,
+				CAE430871CDB725600FBB43B /* myScrollView.h */,
+				CAE430881CDB725600FBB43B /* myScrollView.m */,
 				CA8C10E01CD68F9800BA62AF /* AppDelegate.h */,
 				CA8C10E11CD68F9800BA62AF /* AppDelegate.m */,
-				CA8C10E31CD68F9800BA62AF /* ViewController.h */,
-				CA8C10E41CD68F9800BA62AF /* ViewController.m */,
 				CA8C10E61CD68F9800BA62AF /* Main.storyboard */,
+				CA8C11141CD6903D00BA62AF /* Modal */,
 				CA8C10E91CD68F9800BA62AF /* Assets.xcassets */,
 				CA8C10EB1CD68F9800BA62AF /* LaunchScreen.storyboard */,
 				CA8C10EE1CD68F9800BA62AF /* Info.plist */,
 				CA8C10DD1CD68F9800BA62AF /* Supporting Files */,
+				CA8C112C1CD6EA6500BA62AF /* Settings.bundle */,
+				CA8C112E1CD7AA1400BA62AF /* notification.plist */,
 			);
 			path = ThatDay_sqlite3;
 			sourceTree = "<group>";
@@ -118,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				CA8C10DE1CD68F9800BA62AF /* main.m */,
+				CA8C11101CD68FCD00BA62AF /* ThatDay_sqlite3-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +254,85 @@
 				CA8C11041CD68F9800BA62AF /* Info.plist */,
 			);
 			path = ThatDay_sqlite3UITests;
+			sourceTree = "<group>";
+		};
+		CA8C11141CD6903D00BA62AF /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C11111CD6903700BA62AF /* Note.h */,
+				CA8C11121CD6903700BA62AF /* Note.m */,
+				CA8C11151CD691B700BA62AF /* NoteList.h */,
+				CA8C11161CD691B700BA62AF /* NoteList.m */,
+				CA8C11201CD6C01800BA62AF /* NoteBL.h */,
+				CA8C11211CD6C01800BA62AF /* NoteBL.m */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		CAE4308A1CDB889A00FBB43B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C11281CD6C0B000BA62AF /* ThatDayUniversalCollectionViewController.h */,
+				CA8C11291CD6C0B000BA62AF /* ThatDayUniversalCollectionViewController.m */,
+				CAFB933D1CDA7D4B00EC241B /* DetailViewController.h */,
+				CAFB933E1CDA7D4B00EC241B /* DetailViewController.m */,
+				CAFB93401CDA86DE00EC241B /* AddNoteTableViewController.h */,
+				CAFB93411CDA86DE00EC241B /* AddNoteTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CAE430921CDCD67C00FBB43B /* ThatDay_sqlite3Tests2 */ = {
+			isa = PBXGroup;
+			children = (
+				CAE430931CDCD67C00FBB43B /* ThatDay_sqlite3Tests2.m */,
+				CAE430951CDCD67C00FBB43B /* Info.plist */,
+			);
+			path = ThatDay_sqlite3Tests2;
+			sourceTree = "<group>";
+		};
+		CAEF2D9F1CDAC64200DA2B6B /* MKNetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				CAEF2DA01CDAC64200DA2B6B /* Categories */,
+				CAEF2DAF1CDAC64200DA2B6B /* MKNetworkEngine.h */,
+				CAEF2DB01CDAC64200DA2B6B /* MKNetworkEngine.m */,
+				CAEF2DB11CDAC64200DA2B6B /* MKNetworkKit.h */,
+				CAEF2DB21CDAC64200DA2B6B /* MKNetworkOperation.h */,
+				CAEF2DB31CDAC64200DA2B6B /* MKNetworkOperation.m */,
+				CAEF2DB41CDAC64200DA2B6B /* Reachability */,
+			);
+			path = MKNetworkKit;
+			sourceTree = "<group>";
+		};
+		CAEF2DA01CDAC64200DA2B6B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CAEF2DA11CDAC64200DA2B6B /* NSAlert+MKNetworkKitAdditions.h */,
+				CAEF2DA21CDAC64200DA2B6B /* NSAlert+MKNetworkKitAdditions.m */,
+				CAEF2DA31CDAC64200DA2B6B /* NSData+MKBase64.h */,
+				CAEF2DA41CDAC64200DA2B6B /* NSData+MKBase64.m */,
+				CAEF2DA51CDAC64200DA2B6B /* NSDate+RFC1123.h */,
+				CAEF2DA61CDAC64200DA2B6B /* NSDate+RFC1123.m */,
+				CAEF2DA71CDAC64200DA2B6B /* NSDictionary+RequestEncoding.h */,
+				CAEF2DA81CDAC64200DA2B6B /* NSDictionary+RequestEncoding.m */,
+				CAEF2DA91CDAC64200DA2B6B /* NSString+MKNetworkKitAdditions.h */,
+				CAEF2DAA1CDAC64200DA2B6B /* NSString+MKNetworkKitAdditions.m */,
+				CAEF2DAB1CDAC64200DA2B6B /* UIAlertView+MKNetworkKitAdditions.h */,
+				CAEF2DAC1CDAC64200DA2B6B /* UIAlertView+MKNetworkKitAdditions.m */,
+				CAEF2DAD1CDAC64200DA2B6B /* UIImageView+MKNetworkKitAdditions.h */,
+				CAEF2DAE1CDAC64200DA2B6B /* UIImageView+MKNetworkKitAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		CAEF2DB41CDAC64200DA2B6B /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				CAEF2DB51CDAC64200DA2B6B /* Reachability.h */,
+				CAEF2DB61CDAC64200DA2B6B /* Reachability.m */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +391,24 @@
 			productReference = CA8C10FE1CD68F9800BA62AF /* ThatDay_sqlite3UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CAE430901CDCD67C00FBB43B /* ThatDay_sqlite3Tests2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE430981CDCD67C00FBB43B /* Build configuration list for PBXNativeTarget "ThatDay_sqlite3Tests2" */;
+			buildPhases = (
+				CAE4308D1CDCD67C00FBB43B /* Sources */,
+				CAE4308E1CDCD67C00FBB43B /* Frameworks */,
+				CAE4308F1CDCD67C00FBB43B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE430971CDCD67C00FBB43B /* PBXTargetDependency */,
+			);
+			name = ThatDay_sqlite3Tests2;
+			productName = ThatDay_sqlite3Tests2;
+			productReference = CAE430911CDCD67C00FBB43B /* ThatDay_sqlite3Tests2.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,6 +432,11 @@
 						DevelopmentTeam = D667J2X7L2;
 						TestTargetID = CA8C10D91CD68F9800BA62AF;
 					};
+					CAE430901CDCD67C00FBB43B = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = D667J2X7L2;
+						TestTargetID = CA8C10D91CD68F9800BA62AF;
+					};
 				};
 			};
 			buildConfigurationList = CA8C10D51CD68F9800BA62AF /* Build configuration list for PBXProject "ThatDay_sqlite3" */;
@@ -237,6 +455,7 @@
 				CA8C10D91CD68F9800BA62AF /* ThatDay_sqlite3 */,
 				CA8C10F21CD68F9800BA62AF /* ThatDay_sqlite3Tests */,
 				CA8C10FD1CD68F9800BA62AF /* ThatDay_sqlite3UITests */,
+				CAE430901CDCD67C00FBB43B /* ThatDay_sqlite3Tests2 */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +465,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA8C112D1CD6EA6500BA62AF /* Settings.bundle in Resources */,
+				CA8C112F1CD7AA1400BA62AF /* notification.plist in Resources */,
 				CA8C10ED1CD68F9800BA62AF /* LaunchScreen.storyboard in Resources */,
 				CA8C10EA1CD68F9800BA62AF /* Assets.xcassets in Resources */,
 				CA8C10E81CD68F9800BA62AF /* Main.storyboard in Resources */,
@@ -266,6 +487,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CAE4308F1CDCD67C00FBB43B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -273,9 +501,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA8C10E51CD68F9800BA62AF /* ViewController.m in Sources */,
+				CA8C112B1CD6C0B000BA62AF /* ThatDayUniversalCollectionViewController.m in Sources */,
+				CAE430891CDB725600FBB43B /* myScrollView.m in Sources */,
+				CAEF2DBA1CDAC64200DA2B6B /* NSDictionary+RequestEncoding.m in Sources */,
+				CAEF2DB91CDAC64200DA2B6B /* NSDate+RFC1123.m in Sources */,
+				CAEF2DBB1CDAC64200DA2B6B /* NSString+MKNetworkKitAdditions.m in Sources */,
+				CA8C11221CD6C01800BA62AF /* NoteBL.m in Sources */,
+				CAEF2DC31CDAF15B00DA2B6B /* Constants.m in Sources */,
+				CAFB933F1CDA7D4B00EC241B /* DetailViewController.m in Sources */,
+				CA8C11131CD6903700BA62AF /* Note.m in Sources */,
 				CA8C10E21CD68F9800BA62AF /* AppDelegate.m in Sources */,
+				CAEF2DBF1CDAC64200DA2B6B /* MKNetworkOperation.m in Sources */,
+				CA8C11251CD6C09000BA62AF /* NoteCell.m in Sources */,
+				CAEF2DB71CDAC64200DA2B6B /* NSAlert+MKNetworkKitAdditions.m in Sources */,
+				CAEF2DBC1CDAC64200DA2B6B /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
+				CAFB93421CDA86DE00EC241B /* AddNoteTableViewController.m in Sources */,
+				CAEF2DC01CDAC64200DA2B6B /* Reachability.m in Sources */,
 				CA8C10DF1CD68F9800BA62AF /* main.m in Sources */,
+				CA8C11171CD691B700BA62AF /* NoteList.m in Sources */,
+				CAEF2DBD1CDAC64200DA2B6B /* UIImageView+MKNetworkKitAdditions.m in Sources */,
+				CAEF2DBE1CDAC64200DA2B6B /* MKNetworkEngine.m in Sources */,
+				CAEF2DB81CDAC64200DA2B6B /* NSData+MKBase64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +530,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA8C10F81CD68F9800BA62AF /* ThatDay_sqlite3Tests.m in Sources */,
+				CAE4309C1CDCD6AA00FBB43B /* AddNoteTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +539,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA8C11031CD68F9800BA62AF /* ThatDay_sqlite3UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE4308D1CDCD67C00FBB43B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE430941CDCD67C00FBB43B /* ThatDay_sqlite3Tests2.m in Sources */,
+				CAE4309B1CDCD6A800FBB43B /* AddNoteTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +563,11 @@
 			isa = PBXTargetDependency;
 			target = CA8C10D91CD68F9800BA62AF /* ThatDay_sqlite3 */;
 			targetProxy = CA8C10FF1CD68F9800BA62AF /* PBXContainerItemProxy */;
+		};
+		CAE430971CDCD67C00FBB43B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA8C10D91CD68F9800BA62AF /* ThatDay_sqlite3 */;
+			targetProxy = CAE430961CDCD67C00FBB43B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -416,6 +677,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "ThatDay_sqlite3/ThatDay_sqlite3-Prefix.pch";
 				INFOPLIST_FILE = ThatDay_sqlite3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ThatDay-sqlite3";
@@ -427,6 +689,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "ThatDay_sqlite3/ThatDay_sqlite3-Prefix.pch";
 				INFOPLIST_FILE = ThatDay_sqlite3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ThatDay-sqlite3";
@@ -482,6 +745,30 @@
 			};
 			name = Release;
 		};
+		CAE430991CDCD67C00FBB43B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThatDay_sqlite3Tests2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ThatDay-sqlite3Tests2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThatDay_sqlite3.app/ThatDay_sqlite3";
+			};
+			name = Debug;
+		};
+		CAE4309A1CDCD67C00FBB43B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThatDay_sqlite3Tests2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ThatDay-sqlite3Tests2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThatDay_sqlite3.app/ThatDay_sqlite3";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -501,6 +788,7 @@
 				CA8C11091CD68F9800BA62AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA8C110A1CD68F9800BA62AF /* Build configuration list for PBXNativeTarget "ThatDay_sqlite3Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +797,7 @@
 				CA8C110C1CD68F9800BA62AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA8C110D1CD68F9800BA62AF /* Build configuration list for PBXNativeTarget "ThatDay_sqlite3UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +806,16 @@
 				CA8C110F1CD68F9800BA62AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE430981CDCD67C00FBB43B /* Build configuration list for PBXNativeTarget "ThatDay_sqlite3Tests2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE430991CDCD67C00FBB43B /* Debug */,
+				CAE4309A1CDCD67C00FBB43B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,19 +1,18 @@
 //
-//  ThatDay_sqlite3Tests.m
-//  ThatDay_sqlite3Tests
+//  ThatDay_sqlite3Tests2.m
+//  ThatDay_sqlite3Tests2
 //
-//  Created by ZhongZhongzhong on 16/5/1.
+//  Created by ZhongZhongzhong on 16/5/6.
 //  Copyright © 2016年 ZhongZhongzhong. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-#import "AddNoteTableViewController.h"
 
-@interface ThatDay_sqlite3Tests : XCTestCase
+@interface ThatDay_sqlite3Tests2 : XCTestCase
 
 @end
 
-@implementation ThatDay_sqlite3Tests
+@implementation ThatDay_sqlite3Tests2
 
 - (void)setUp {
     [super setUp];
